@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="accessibilityAnnotationApp">
+    <head>
+        <!-- PageHeader -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <title>Accessibility Annotation</title>
+
+        <!-- Bootstrap -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Angular-UI -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.20.0/select.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+        <!-- Site Styles -->
+        <link href="/css/styles.css" rel="stylesheet">
+
+        <!-- Angular Base -->
+        <base href="/">
+    </head>
+
+    <body id="page-top" class="index">
+        <!-- The view div, into which Angular will dynamically insert content -->
+        <div ng-view></div>
+
+        <!-- EndOfBody Javascript -->
+        <!-- Angular -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.js"></script>
+        <!-- Angular UI Bootstrap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.20.0/select.js"></script>
+
+        <!-- Our overall app -->
+        <script src="/app/accessibilityAnnotationApp.js"></script>
+        <script src="/app/controllers/homeController.js"></script>
+        <script src="/app/controllers/reportController.js"></script>
+        <script src="/app/services/dataFactory.js"></script>
+    </body>
+</html>

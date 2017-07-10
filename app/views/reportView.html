@@ -1,0 +1,14 @@
+<div class="center">
+    <h1>Report View</h1>
+
+    <div>Go to <a href="/">Home View</a></div>
+    <hr>
+
+    <div ng-repeat="app in viewModel.apps">
+        <div>{{ app.name }}</div>
+        <div ng-repeat="screen in app.screens">
+            <div>{{ screen.name }}</div>
+            <img src="{{ screen.urlImage }}" width="200">
+        </div>
+    </div>
+</div>
