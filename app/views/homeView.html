@@ -1,0 +1,32 @@
+<div class="center">
+    <h1>Home View</h1>
+
+    <div>Go to <a href="/report/">Report View</a></div>
+    <hr>
+
+	<div>Select an App</div>
+
+    <ui-select ng-model="viewModel.appSelection.selected" on-select="viewModel.appSelection.onSelectCallback($item, $model)">
+        <ui-select-match>
+            <span ng-bind="$select.selected.name"></span>
+        </ui-select-match>
+        <ui-select-choices repeat="appCurrent in (viewModel.availableApps | filter: $select.search) track by appCurrent.id">
+            <span ng-bind="appCurrent.name"></span>
+        </ui-select-choices>
+    </ui-select>
+
+	<div>Select a Screen</div>
+
+    <ui-select ng-model="viewModel.screenSelection.selected" on-select="viewModel.screenSelection.onSelectCallback($item, $model)">
+        <ui-select-match>
+            <span ng-bind="$select.selected.name"></span>
+        </ui-select-match>
+        <ui-select-choices repeat="screenCurrent in (viewModel.availableScreens | filter: $select.search) track by screenCurrent.id">
+            <span ng-bind="screenCurrent.name"></span>
+        </ui-select-choices>
+    </ui-select>
+
+	<div>Screen Image</div>
+
+    <img src="{{ viewModel.screenSelection.selected.urlImage }}" width="200">
+</div>

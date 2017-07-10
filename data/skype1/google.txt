@@ -1,0 +1,10 @@
+The following is a list of opportunities to improve the accessibility of Skype. Each item corresponds to an outlined area on the attached screenshot.
+
+Text contrast
+com.skype.raider:id/next_button
+The item's text contrast ratio is 2.50. This ratio is based on an estimated foreground color of #FFFFFF and an estimated background color of #00AFF0. Consider increasing this item's text contrast ratio to 3.00 or greater.
+
+Touch target
+com.skype.raider:id/mnv_add_friends_description
+This item's height is 37dp. Consider making the height of this touch target 48dp or larger.
+

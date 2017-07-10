@@ -1,0 +1,138 @@
+{
+  "android.view.accessibility.AccessibilityNodeInfo@8003d457": {
+    "_id": "android.view.accessibility.AccessibilityNodeInfo@8003d457",
+    "actions": "[AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]",
+    "boundsInParent": {
+      "bottom": "2560",
+      "left": "0",
+      "right": "1440",
+      "top": "0"
+    },
+    "boundsInScreen": {
+      "bottom": "2560",
+      "left": "0",
+      "right": "1440",
+      "top": "0"
+    },
+    "checkable": "false",
+    "checked": "false",
+    "className": "android.widget.FrameLayout",
+    "clickable": "false",
+    "contentDescription": "null",
+    "contextClickable": "false",
+    "enabled": "true",
+    "error": "null",
+    "focusable": "false",
+    "focused": "false",
+    "longClickable": "false",
+    "maxTextLength": "-1",
+    "packageName": "com.skype.raider",
+    "password": "false",
+    "scrollable": "false",
+    "selected": "false",
+    "text": "null",
+    "viewIdResName": "null"
+  },
+  "android.view.accessibility.AccessibilityNodeInfo@8003d818": {
+    "_id": "android.view.accessibility.AccessibilityNodeInfo@8003d818",
+    "actions": "[AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]",
+    "boundsInParent": {
+      "bottom": "216",
+      "left": "0",
+      "right": "216",
+      "top": "0"
+    },
+    "boundsInScreen": {
+      "bottom": "2168",
+      "left": "612",
+      "right": "828",
+      "top": "1952"
+    },
+    "checkable": "false",
+    "checked": "false",
+    "className": "android.widget.TextView",
+    "clickable": "true",
+    "contentDescription": "Add friends",
+    "contextClickable": "false",
+    "enabled": "true",
+    "error": "null",
+    "focusable": "false",
+    "focused": "false",
+    "longClickable": "false",
+    "maxTextLength": "-1",
+    "packageName": "com.skype.raider",
+    "password": "false",
+    "scrollable": "false",
+    "selected": "false",
+    "text": "\ue419",
+    "viewIdResName": "com.skype.raider:id/next_button"
+  },
+  "android.view.accessibility.AccessibilityNodeInfo@8003dbd9": {
+    "_id": "android.view.accessibility.AccessibilityNodeInfo@8003dbd9",
+    "actions": "[AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]",
+    "boundsInParent": {
+      "bottom": "130",
+      "left": "0",
+      "right": "1272",
+      "top": "0"
+    },
+    "boundsInScreen": {
+      "bottom": "429",
+      "left": "84",
+      "right": "1356",
+      "top": "299"
+    },
+    "checkable": "false",
+    "checked": "false",
+    "className": "android.widget.TextView",
+    "clickable": "true",
+    "contentDescription": "null",
+    "contextClickable": "false",
+    "enabled": "true",
+    "error": "null",
+    "focusable": "false",
+    "focused": "false",
+    "longClickable": "false",
+    "maxTextLength": "-1",
+    "packageName": "com.skype.raider",
+    "password": "false",
+    "scrollable": "false",
+    "selected": "false",
+    "text": "We'll add contacts from your device's address book so you can start chatting to them right away. Learn more.",
+    "viewIdResName": "com.skype.raider:id/mnv_add_friends_description"
+  },
+  "android.view.accessibility.AccessibilityNodeInfo@8003df9a": {
+    "_id": "android.view.accessibility.AccessibilityNodeInfo@8003df9a",
+    "actions": "[AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]",
+    "boundsInParent": {
+      "bottom": "124",
+      "left": "0",
+      "right": "1272",
+      "top": "0"
+    },
+    "boundsInScreen": {
+      "bottom": "257",
+      "left": "84",
+      "right": "1356",
+      "top": "133"
+    },
+    "checkable": "false",
+    "checked": "false",
+    "className": "android.widget.TextView",
+    "clickable": "false",
+    "contentDescription": "null",
+    "contextClickable": "false",
+    "enabled": "true",
+    "error": "null",
+    "focusable": "false",
+    "focused": "false",
+    "longClickable": "false",
+    "maxTextLength": "-1",
+    "packageName": "com.skype.raider",
+    "password": "false",
+    "scrollable": "false",
+    "selected": "false",
+    "text": "Skype is better with friends",
+    "viewIdResName": "com.skype.raider:id/mnv_add_friends_title_text"
+  }
+}

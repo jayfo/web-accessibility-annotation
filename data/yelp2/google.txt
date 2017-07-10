@@ -1,0 +1,46 @@
+The following is a list of opportunities to improve the accessibility of Yelp. Each item corresponds to an outlined area on the attached screenshot.
+
+Item label
+com.yelp.android:id/arrow
+This item may not have a label readable by screen readers.
+
+Item label
+[35,1570][490,2025]
+This item may not have a label readable by screen readers.
+
+Item label
+[525,1570][980,2025]
+This item may not have a label readable by screen readers.
+
+Item label
+[1015,1570][1440,2025]
+This item may not have a label readable by screen readers.
+
+Touch target
+com.yelp.android:id/hours
+This item's height is 16dp. Consider making the height of this touch target 48dp or larger.
+
+Touch target
+[35,1360][339,1496]
+This item's height is 38dp. Consider making the height of this touch target 48dp or larger.
+
+Touch target
+[374,1360][718,1496]
+This item's height is 38dp. Consider making the height of this touch target 48dp or larger.
+
+Touch target
+[753,1360][1095,1496]
+This item's height is 38dp. Consider making the height of this touch target 48dp or larger.
+
+Text contrast
+com.yelp.android:id/rating
+The item's text contrast ratio is 3.29. This ratio is based on an estimated foreground color of #FFFFFF and an estimated background color of #F15C4F. Consider using a contrast ratio greater than 4.50 for small text, or 3.00 for large text.
+
+Text contrast
+[70,1395][304,1461]
+The item's text contrast ratio is 3.16. This ratio is based on an estimated foreground color of #FFFFFF and an estimated background color of #0097EC. Consider using a contrast ratio greater than 4.50 for small text, or 3.00 for large text.
+
+Touch target
+com.yelp.android:id/arrow
+This item's size is 24dp x 24dp. Consider making this touch target 48dp wide and 48dp high or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item.
+

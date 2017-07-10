@@ -1,0 +1,70 @@
+{
+  "android.view.accessibility.AccessibilityNodeInfo@8000746d": {
+    "_id": "android.view.accessibility.AccessibilityNodeInfo@8000746d",
+    "actions": "[AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]",
+    "boundsInParent": {
+      "bottom": "1440",
+      "left": "0",
+      "right": "2560",
+      "top": "0"
+    },
+    "boundsInScreen": {
+      "bottom": "1440",
+      "left": "0",
+      "right": "2560",
+      "top": "0"
+    },
+    "checkable": "false",
+    "checked": "false",
+    "className": "android.widget.FrameLayout",
+    "clickable": "false",
+    "contentDescription": "null",
+    "contextClickable": "false",
+    "enabled": "true",
+    "error": "null",
+    "focusable": "false",
+    "focused": "false",
+    "longClickable": "false",
+    "maxTextLength": "-1",
+    "packageName": "com.tocaboca.tocakitchen",
+    "password": "false",
+    "scrollable": "false",
+    "selected": "false",
+    "text": "null",
+    "viewIdResName": "null"
+  },
+  "android.view.accessibility.AccessibilityNodeInfo@8000782e": {
+    "_id": "android.view.accessibility.AccessibilityNodeInfo@8000782e",
+    "actions": "[AccessibilityAction: ACTION_CLEAR_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]",
+    "boundsInParent": {
+      "bottom": "1440",
+      "left": "0",
+      "right": "2560",
+      "top": "0"
+    },
+    "boundsInScreen": {
+      "bottom": "1440",
+      "left": "0",
+      "right": "2560",
+      "top": "0"
+    },
+    "checkable": "false",
+    "checked": "false",
+    "className": "android.view.View",
+    "clickable": "false",
+    "contentDescription": "null",
+    "contextClickable": "false",
+    "enabled": "true",
+    "error": "null",
+    "focusable": "true",
+    "focused": "true",
+    "longClickable": "false",
+    "maxTextLength": "-1",
+    "packageName": "com.tocaboca.tocakitchen",
+    "password": "false",
+    "scrollable": "false",
+    "selected": "false",
+    "text": "null",
+    "viewIdResName": "null"
+  }
+}
